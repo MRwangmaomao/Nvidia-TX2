@@ -1,5 +1,6 @@
 # TX2
 
+
 ## 刷机
 
 JetPack 3.3 : https://developer.nvidia.com/embedded/jetpack-3_3
@@ -8,13 +9,18 @@ JetPack 3.3 : https://developer.nvidia.com/embedded/jetpack-3_3
 
 ## 安装ROS(Ubuntu 16.04)
 
+
 ## 安装turtlebot2驱动(ROS Kinetic)
 
+
 ## 安装KinectV2相机驱动
+[install](kinectV2install.sh)
 
 ## 安装小觅相机
 
+
 ## 安装测试VINS_Fusion
+
 
 ## 参考资料
 https://jkjung-avt.github.io/
