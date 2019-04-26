@@ -16,6 +16,21 @@ JetPack 3.3 : https://developer.nvidia.com/embedded/jetpack-3_3
 ## 安装KinectV2相机驱动
 [install](kinectV2install.sh)
 
+## 安装ceres非线性优化库
+
+```
+cd ~
+git clone https://ceres-solver.googlesource.com/ceres-solver
+sudo apt-get -y install cmake libgoogle-glog-dev libatlas-base-dev libeigen3-dev libsuitesparse-dev
+sudo add-apt-repository ppa:bzindovic/suitesparse-bugfix-1319687
+sudo apt-get update && sudo apt-get install libsuitesparse-dev
+mkdir ceres-bin
+cd ceres-bin
+cmake ../ceres-solver
+make -j3
+sudo make install
+```
+
 ## 安装小觅相机
 
 
